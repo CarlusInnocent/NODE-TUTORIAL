@@ -1,2 +1,1 @@
-My first line! 
-This is my second line!
+This Is My Second Line

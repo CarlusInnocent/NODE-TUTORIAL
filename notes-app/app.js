@@ -1,5 +1,3 @@
-import { myName } from "./notes.js";
-import validator from 'validator';
+const fs = require("fs")
 
-console.log(myName)
-console.log(validator.isEmail('aci@gmail.com'))
+fs.writeFileSync("notes.txt", "This Is My First Line")
