@@ -1,0 +1,35 @@
+talking about the es modules which are common now day and also keeping up with arrow functions
+
+talk about validator
+
+talk about chalk as an excercise
+
+automating with nodemon npm package
+
+dont forget process.argv which contains all the inputs fed in to the command line
+
+before i kick in for yargz, ensure i have tested the process.argv
+
+challenge to complete the read and list commands
+builder ....describe...demandOption....type...
+
+challenge finish up the body section in builder
+
+storing data in a json format in txt file
+this will be our data storage format
+
+>>>JSON.stringfy() converts an object, array etc to a JSON object
+>>>JSON.parse() converts JSON to normal js
+
+read to JSON to object then access
+
+try:
+.......
+load and parse the JSON data
+change the name and age property using your info
+stringfy the changed object and overwrite the original data
+test your work by viewing data in the JSON file
+.......
+
+
+
