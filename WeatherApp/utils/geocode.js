@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const geocode = (address, callback) => {
-    const geo_url = `https://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(address)}&access_token=pk.eyJ1IjoiY2FybHVzaW5ub2NlbnQiLCJhIjoiY200Mzl4OXFrMDk5bDJsczd6NmU1dGk4NiJ9.A6sGeI0qH0p-QPJkBgnKfg`
+    const geo_url = `https://api.mapbox.com/search/geocode/v6/forward?q=${encodeURIComponent(address)}&access_token=_`
 
     axios.get(geo_url, { timeout: 10000 })
         .then(response => {
