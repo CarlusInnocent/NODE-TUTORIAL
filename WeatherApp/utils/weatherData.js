@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const weatherData = (latitude, longitude, callback) => {
-    const weather_url = `http://api.weatherstack.com/current?access_key=cbfe5d8b3810f958ace873608df5695e&query=${latitude},${longitude}&units=m`
+    const weather_url = `http://api.weatherstack.com/current?access_key=_&query=${latitude},${longitude}&units=m`
 
     axios.get(weather_url, { timeout: 10000 })
         .then(response => {
